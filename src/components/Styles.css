@@ -5,7 +5,6 @@
     font-weight: bold;
     font-size: 1.2rem;
     box-sizing: border-box;
-    background-image: "";
     align-content: center;
 }
 
@@ -21,7 +20,8 @@ input {
 .App {
     background-image: url('../assets/cf_hrlogo_text.svg');
     background-repeat: no-repeat;
-    background-size: 33%;
+    background-size: 42%;
+    background-color: #BBB;
     background-position: center;
 }
 
@@ -50,7 +50,7 @@ input {
     transition: all 0.3s;
     font-size: 2rem;
     align-content: center;
-    padding: 0.2em;
+    padding: 0.em;
 }
 
     
@@ -67,6 +67,8 @@ input {
     font-size: 6rem;
     font-weight: bold;
     text-align: center;
+    position: relative;
+    top: 75%;
 }
 
 
