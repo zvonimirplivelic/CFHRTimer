@@ -1,0 +1,74 @@
+* {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    background-image: "";
+    align-content: center;
+}
+
+
+input {
+    width: 50%;
+    margin: .5rem;
+    text-align: center;
+    background-color: wheat;
+}
+
+
+.App {
+    background-image: url('../assets/cf_hrlogo_text.svg');
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: center;
+}
+
+.TimerForm {
+    margin: 0 auto;
+    width: 33%;
+    display: flex;
+    height: 2em;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.Button {
+    display: block;
+    width: 33%;
+    height: 3.5em;
+    cursor: pointer;
+    position: relative;
+    top: 75%;
+    border: 3px solid #FFD700;
+    border-radius: 16px;
+    background-color: #FFD700;
+    box-shadow: 0 6px #FFD700;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    font-size: 2rem;
+    align-content: center;
+    padding: 1rem 1.3rem;
+}
+
+    
+.Button:hover {
+    box-shadow: 3px 6px rgba(35, 35, 35, 0.333);
+    text-shadow: 2px 2px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(35,35,35,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(35,35,35,0.57);
+    transition: all 0.4s ease 0s;
+    }
+
+
+.Timer {
+    padding-top: 0.7em;
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
