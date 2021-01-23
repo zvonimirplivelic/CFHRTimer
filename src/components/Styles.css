@@ -64,6 +64,7 @@ input {
 
 
 .Timer {
+    width: 33%;
     font-size: 6rem;
     font-weight: bold;
     text-align: center;
