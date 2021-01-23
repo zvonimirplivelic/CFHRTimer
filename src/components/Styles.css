@@ -38,7 +38,7 @@ input {
 .Button {
     display: block;
     width: 33%;
-    height: 3.5em;
+    height: 2.5em;
     cursor: pointer;
     position: relative;
     top: 75%;
@@ -50,7 +50,7 @@ input {
     transition: all 0.3s;
     font-size: 2rem;
     align-content: center;
-    padding: 1rem 1.3rem;
+    padding: 0.2em;
 }
 
     
@@ -64,8 +64,7 @@ input {
 
 
 .Timer {
-    padding-top: 0.7em;
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: bold;
     text-align: center;
 }
